@@ -1,0 +1,49 @@
+body{
+	background-color: white ;
+	padding-top: 40px;
+}
+.cadastro{
+	margin: auto;
+	background-color: rgb(51,51,51);
+	color: white;
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	text-align: center; 
+	border-radius: 20px;
+}
+.cadastro2 label{
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	padding: 5px;
+	font-size: 20px;
+	color: #fff;
+
+}
+.cadastro2 img {
+	align-content:center;
+    max-width:150px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+}
+.cadastro2 span{
+	font-size: 30px;
+	color: #fff;
+	padding: 7px;
+}
+.tabela
+{
+	padding-right: 5px;
+	padding-left: 0px;
+	font-size: 12px;
+}
+.botao {
+	padding-top: 10px;
+}
+.form-group{
+	padding-left: 15px;
+}

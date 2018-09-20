@@ -1,0 +1,125 @@
+@font-face { font-family: Century; src: url('GOUDOS.ttf');}
+    
+     body{
+         font-family: Century;
+         background: rgb(51, 51, 51);
+         color: #fff;
+         padding:20px;
+     }
+      
+    .container{
+        padding-left: 20px;
+    }
+    .home H1{
+        font-weight: 600;
+        color: white;
+        text-transform: uppercase;
+        align-content: center;
+        text-align:center;
+        font: 40px goudos;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+     .pagina{
+         padding-top: 150px;
+         padding: 20px;
+         width:100%;
+         overflow-x:auto;
+         height:100%;   
+         padding-left: 170px;
+         font: 20px goudos;
+         text-transform: uppercase;
+         text-align:center;
+     }
+     .pagina span{
+        color: white;
+        font: 22px goudos;
+        text-transform: uppercase;
+        text-align:center;
+        font-weight: 500;
+    }
+     .linha{
+         width:auto;
+         padding:5px;
+         height:250px;
+         display:table;
+    
+     }
+.tile{
+     height:200px;    
+     width:300px;   
+     float:left;
+     margin:5px 5px 5px 5px;
+     padding:25px;
+     padding-left: 25px;
+ }
+ 
+ .tileLargo{
+    border-radius: 8px;
+     width:300px;
+ }
+
+.amarelo{
+     background:rgba(255, 255, 255, 0); 
+     
+ }
+ .amarelo:hover {
+     background: #28a745;
+     -webkit-transition: 0.5s ease-out;
+     -moz-transition: 0.5s ease-out;
+     -o-transition: 0.5s ease-out;
+     transition: 0.5s ease-out;
+ }
+ 
+ .vermelho{
+     background: rgba(255, 255, 255, 0);  
+ }
+
+ .vermelho:hover {
+    background: #28a745;
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+}
+ 
+ .azul{
+     background:rgba(255, 255, 255, 0); 
+ }
+ .azul:hover {
+    background: #28a745;
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+}
+ 
+ .verde{
+     background-color: rgba(255, 255, 255, 0); 
+ }
+ .verde:hover {
+    background: #28a745;
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+}
+.laranja{
+	background-color: rgba(255, 255, 255, 0); 
+}
+.laranja:hover {
+    background: #28a745;
+    -webkit-transition: 0.5s ease-out;
+    -moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+}
+ .container img {
+    max-width:180px;
+    max-height:120px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}

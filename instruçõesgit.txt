@@ -1,0 +1,53 @@
+git diff - verificar o que foi alterado no arquivo
+quando não esta na staged area.
+
+git diff -- staged - quando esta na staged area
+
+git log - historico de todos os commits
+
+git log -p - commit com diff
+
+git log -p -1 commit com diff e quantidade
+
+gitk - interface de logs
+
+git log --ppretty=oneline somente a chave dos commits
+git commit --amend -m "(edição)" alterar commit ja feito
+
+git reset HEAD <arquivo> - remover da staged area
+
+git git checkout --<arquivo> - voltar a status incial do arquivo
+git rm - remover arquivos
+git tag - listar tag
+git tag -a nome da tag -m "msg" - tag anotada
+git tag -a v0.0 chavecommit - tag do commit
+git show nome da tag - informações da tag
+
+git checkout 'v0.0' - pegar arquivos de determinada versão
+git checkout master - voltar ao padrão
+git tag -d v0.0 - deletar tags
+
+git branch teste - criar branch
+git checkout nomebranch - ir para a branch correspondente
+ou git checkout -b 'teste'
+
+git merge branch - trazer as alterações
+obs estar na brach que voce vai implantar
+
+git branch -d branch - deletar determinada branch
+
+git init --bare - repositorio para todo mundo
+
+git remote
+git push origin master
+
+git remote -v - ver remotos
+git remote rm origin - deletar remoto
+
+git pull origin master - trazer alterações do server
+git fetch origin brach - não fazer o merge automatico
+
+
+ 
+
+
